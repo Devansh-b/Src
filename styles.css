@@ -1,0 +1,154 @@
+/* Reset some default browser styles */
+body,  p, ul, li, a {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set a background color and text color for the entire page */
+body {
+    background-color: #f2f2f2;
+    color: #333;
+    font-family: Arial, sans-serif;
+}
+
+/* Style the taskbar */
+.taskbar {
+    background-color: #007BFF;
+    color: white;
+    padding: 10px;
+}
+
+.taskbar ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+.taskbar li {
+    margin-right: 20px;
+}
+
+.taskbar a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.taskbar a:hover {
+    color: #E6E6E6;
+}
+
+/* Style the event header */
+.event-header {
+    background-color: ; 
+    padding: 40px;
+    text-align: center;
+    margin: ;
+}
+
+.event-title h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+.event-title p {
+    font-size: 1.2rem;
+    margin: 0;
+}
+
+/* Style the event description */
+.event-description {
+    margin-top: 20px;
+    font-size: 1.2rem;
+}
+
+/* Style the event image */
+.event-image img {
+    max-width: 100%;
+    height: auto;
+    margin: 20px 0;
+}
+
+/* Style the social handles */
+.social-handles {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.social-icon {
+    margin: 0 10px;
+}
+
+/* Style the page content area */
+.page-content {
+    background-color: #A8DF8E;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.nav-item{
+    margin-left: 20%;
+}
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+  
+  /* Bottom left text */
+  .bottom-left {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+  }
+  
+  /* Top left text */
+  .top-left {
+    position: absolute;
+    top: 8px;
+    left: 16px;
+  }
+  
+  /* Top right text */
+  .top-right {
+    position: absolute;
+    top: 8px;
+    right: 16px;
+  }
+  
+  /* Bottom right text */
+  .bottom-right {
+    position: absolute;
+    bottom: 8px;
+    right: 16px;
+  }
+  
+  /* Centered text */
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .carousel-item{
+    padding: 6rem;
+    
+  }
+  .text{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    line-height: 2;
+    padding-top: 5%;
+    color: white;
+    
+  }
+  h1, h2{
+    font-family: 'Farsan', cursive;
+  }
+  
